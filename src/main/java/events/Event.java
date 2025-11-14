@@ -4,11 +4,11 @@ import java.util.List;
 import java.util.Map;
 
 public class Event {
-    public String database;
-    public String table;
-    public List<String> columnList;
-    public Map<String, Object> changesBefore;
-    public Map<String, Object> changesAfter;
+    private String database;
+    private String table;
+    private List<String> columnList;
+    private Map<String, Object> changesBefore;
+    private Map<String, Object> changesAfter;
 
     public List<String> getColumnList() {
         return columnList;
